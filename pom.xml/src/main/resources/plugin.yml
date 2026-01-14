@@ -3,6 +3,7 @@ version: 1.0
 main: me.tudomany.simplesell.SimpleSell
 api-version: '1.21'
 depend: [Vault]
+
 commands:
   sell:
     description: Eladó felület megnyitása.
