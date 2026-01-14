@@ -1,0 +1,17 @@
+name: SimpleSell
+version: 1.0
+main: me.tudomany.simplesell.SimpleSell
+api-version: '1.21'
+depend: [Vault]
+commands:
+  sell:
+    description: Eladó felület megnyitása.
+    permission: simplesell.use
+  simpleselladminadd:
+    description: Tárgy hozzáadása az árakhoz.
+    permission: simplesell.admin
+permissions:
+  simplesell.use:
+    default: true
+  simplesell.admin:
+    default: op
