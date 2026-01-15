@@ -1,5 +1,5 @@
 name: SimpleSell
-version: 1.0
+version: 1.1
 main: me.tudomany.simplesell.SimpleSell
 api-version: '1.21'
 depend: [Vault]
@@ -11,8 +11,14 @@ commands:
   simpleselladminadd:
     description: Tárgy hozzáadása az árakhoz.
     permission: simplesell.admin
+  simplesellsetbutton:
+    description: Az eladás gomb ikonjának beállítása.
+    permission: simplesell.admin
+
 permissions:
   simplesell.use:
+    description: Jogosultság a /sell parancshoz.
     default: true
   simplesell.admin:
+    description: Jogosultság az admin parancsokhoz.
     default: op
