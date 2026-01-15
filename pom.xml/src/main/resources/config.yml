@@ -1,3 +1,16 @@
-# SimpleSell Config
-# Használd a /simpleselladminadd <ár> parancsot!
-items: {
+# SimpleSell 1.1 Konfiguráció
+
+messages:
+  # Chat üzenetek
+  success: "&8[&6Sell&8] &aSikeresen eladtál &f{amount} &atárgyat &e{money}$ &aértékben!"
+  no-items: "&8[&6Sell&8] &cNincs eladható tárgy a felületen!"
+  
+  # Képernyő feliratok (Sikeres eladáskor)
+  title: "&a&lSIKERES ELADÁS"
+  subtitle: "&e+ {money}$"
+
+# Tárolt adatok - Ide menti a plugin a /simpleselladminadd tárgyait
+items: {}
+
+# Ide menti a plugin a /simplesellsetbutton gombot
+custom-sell-button: {}
